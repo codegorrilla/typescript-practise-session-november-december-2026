@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "es2022",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"lib": ["ES2022"],
+
+		/* Output options */
+		"outDir": "./dist",
+		"rootDir": "./src",
+
+		/* Strict type-checking */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+
+		/* Code quality checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+
+		// Interoperability & Security
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"types": ["node"]
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}

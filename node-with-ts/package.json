@@ -1,0 +1,28 @@
+{
+	"name": "with-ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx --watch src/index.ts",
+		"build": "tsc",
+		"buffers": "tsx --watch src/Buffers.ts",
+		"01": "tsx src/01_basic_http_server.ts",
+		"02": "tsx --watch src/02_routing.ts",
+		"03": "tsx --watch src/03_reading-body.ts",
+		"04": "tsx --watch src/04_json_response.ts",
+		"05": "tsx --watch src/05_external_api_calls.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/node": "^26.6.6",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"dotenv": "^18.0.9"
+	}
+}
