@@ -1,0 +1,16 @@
+{
+	"name": "ts-mini-projects",
+	"version": "1.0.0",
+	"description": "A pactical use case of using TS generics",
+	"license": "ISC",
+	"author": "Sanjib Adhya",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsc -w -p tsconfig.json",
+		"build": "tsc -p tsconfig.json"
+	},
+	"devDependencies": {
+		"typescript": "^7.0.2"
+	}
+}
